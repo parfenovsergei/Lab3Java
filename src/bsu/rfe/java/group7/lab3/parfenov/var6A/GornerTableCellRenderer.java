@@ -14,7 +14,7 @@ import javax.swing.table.TableCellRenderer;
 public class GornerTableCellRenderer implements TableCellRenderer {
 
     private JPanel panel = new JPanel();
-    private JLabel label = new JLabel()
+    private JLabel label = new JLabel();
 // Ищем ячейки, строковое представление которых совпадает с needle
 // (иголкой). Применяется аналогия поиска иголки в стоге сена, в роли
 // стога сена - таблица
